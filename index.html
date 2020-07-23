@@ -13,36 +13,39 @@
 
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
 		integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
 	<link href="./src/css/style.css" rel="stylesheet">
 
+	<!-- Fontes -->
+	<link href="https://fonts.googleapis.com/css2?family=Share&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
-	<header class="container-fluid d-flex align-items-center">
+	<header class="container-fluid d-flex align-items-center justify-content-around font-share">
 		<div class="row">
 			<div class="col-md-12">
 				<ul class="nav nav-pills">
 					<li class="nav-item">
-						<a class="nav-link active" href="#">HOME</a>
+						<a class="nav-link" href="#">HOME</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="#">QUEM SOMOS</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link disabled" href="#">PROJETOS</a>
+						<a class="nav-link" href="#">PROJETOS</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link active" href="#">OBJETIVOS</a>
+						<a class="nav-link" href="#">OBJETIVOS</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="#">LINKS</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link disabled" href="#">INSCRIÇÃO</a>
+						<a class="nav-link" href="#">INSCRIÇÃO</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link disabled" href="#">CONTATO</a>
+						<a class="nav-link" href="#">CONTATO</a>
 					</li>
 				</ul>
 			</div>
@@ -64,7 +67,7 @@
 					</ol>
 					<div class="carousel-inner">
 						<div class="carousel-item active">
-							<img class="d-block w-100" alt="Carousel Bootstrap First" src="./src/assets/images/Logofull.png">
+							<img class="d-block w-100 " alt="Carousel Bootstrap First" src="./src/assets/images/Logofull.png">
 							<div class="carousel-caption">
 								<h4>
 									First Thumbnail label
@@ -117,10 +120,10 @@
 			<div class="row d-flex flex-column">
 				<div class="page-header">
 					<h1 class="blue-company text-center">
-						Vamos juntos criar uma nova geração capaz de serem protagonistas de suas realidades</small>
+						Vamos juntos criar uma<br> nova geração capaz de serem<br> protagonistas de suas realidades</small>
 					</h1>
 				</div>
-				<img alt="Bootstrap Image Preview" src="./src/assets/images/foto_capa.png">
+				<img class="banner-page-header" alt="Bootstrap Image Preview" src="./src/assets/images/foto_capa.png">
 			</div>
 		</div>
 	</section>
@@ -129,11 +132,11 @@
 	<!-- INICIO QUEM SOMOS -->
 	<section>
 		<div class="container-fluid">
+			<h3 class="subtitle-anchor green-company">
+				QUEM SOMOS
+			</h3>
 			<div class="row">
 				<div class="col-md-6">
-					<h3 class="subtitle-anchor green-company">
-						QUEM SOMOS
-					</h3>
 					<img alt="Bootstrap Image Preview" src="./src/assets/images/foto_somos.png">
 				</div>
 				<div class="col-md-6">
@@ -172,22 +175,22 @@
 						Algumas das nossas transformações
 					</h3>
 					<div class="row">
-						<div class="col-md-6">
+						<div class="col-md-6 d-flex justify-content-around margin-top-150">
 							<img alt="Bootstrap Image Preview"
 								src="./src/assets/images/89702635_853449781750117_2249754128590068958_n 2.png">
 						</div>
-						<div class="col-md-6">
+						<div class="col-md-6 d-flex flex-column justify-content-center">
 							<h3 class="case-name green-company">
 								JULIA
 							</h3>
 							<p class="case-p blue-company">
-								É uma forma descontraída de aprender mais sobre nós mesmos, aprendendo novas alternativas para
+								“É uma forma descontraída de aprender mais sobre nós mesmos, aprendendo novas alternativas para
 								resolvermos nossas crises pessoais”
 							</p>
 						</div>
 					</div>
-					<div class="row">
-						<div class="col-md-6">
+					<div class="row d-flex justify-content-around margin-top-150">
+						<div class="col-md-6 d-flex flex-column justify-content-center">
 							<h3 class="case-name green-company">
 								FERNANDA
 							</h3>
@@ -200,11 +203,11 @@
 							<img alt="Bootstrap Image Preview" src="./src/assets/images/foto_maira.png">
 						</div>
 					</div>
-					<div class="row">
+					<div class="row d-flex justify-content-around margin-top-150">
 						<div class="col-md-6">
 							<img alt="Bootstrap Image Preview" src="./src/assets/images/foto_vinicius.png">
 						</div>
-						<div class="col-md-6">
+						<div class="col-md-6 d-flex flex-column justify-content-center">
 							<h3 class="case-name green-company">
 								VINÍCIUS
 							</h3>
@@ -358,11 +361,11 @@
 	</section>
 	<!-- FIM INSCRIÇÃO -->
 
-	<footer>
+	<footer class="white-company">
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-md-12">
-					<h3 class="blue-company">
+					<h3 class="white-company">
 						ENTRE EM CONTATO
 					</h3>
 					<div class="d-flex">

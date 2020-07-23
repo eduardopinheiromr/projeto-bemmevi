@@ -10,6 +10,10 @@ $white-company: #FFFFFF;
 
 */
 
+.font-share{
+  font-family: Share;
+}
+
 .green-company{
   color: #5CBD6F;
 }
@@ -34,8 +38,25 @@ header{
   height: 79px;
 }
 
+li a{
+  color: #5CBD6F;
+}
+
+.banner-page-header{
+  max-width: 100%;
+}
+
+h1{
+  font-size: 48px;
+  line-height: 64px;
+}
+
 .subtitle-anchor{
   font-size: 96px;
+}
+
+.margin-top-150{
+  margin-top: 150px;
 }
 
 .subtitle-inside{
@@ -48,4 +69,9 @@ header{
 
 .case-p{
   font-size: 36px;
+}
+
+footer{
+  height: 205px;
+  background:#2F80ED;
 }
