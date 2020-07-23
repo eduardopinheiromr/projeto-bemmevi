@@ -1,1 +1,51 @@
-# Empty CSS file for your own CSS
+/* 
+
+Paleta de cores para implementar no SASS posteriormente
+
+$green-company: #5CBD6F; 
+$blue-company: #2F80ED;
+$black-company: #000000;
+$gray-company: #C4C4C4;
+$white-company: #FFFFFF;
+
+*/
+
+.green-company{
+  color: #5CBD6F;
+}
+
+.blue-company{
+  color: #2F80ED;
+}
+
+.black-company{
+  color: #000000;
+}
+
+.gray-company{
+  color: #C4C4C4;
+}
+
+.white-company{
+  color: #FFFFFF;
+}
+
+header{
+  height: 79px;
+}
+
+.subtitle-anchor{
+  font-size: 96px;
+}
+
+.subtitle-inside{
+  font-size: 48px;
+}
+
+.case-name{
+  font-size: 64px;
+}
+
+.case-p{
+  font-size: 36px;
+}
