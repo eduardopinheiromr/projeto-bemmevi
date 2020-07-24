@@ -1,0 +1,233 @@
+/* 
+
+Paleta de cores para implementar no SASS posteriormente
+
+$green-company: #5CBD6F; 
+$blue-company: #2F80ED;
+$black-company: #000000;
+$gray-company: #C4C4C4;
+$white-company: #FFFFFF;
+
+*/
+
+/* Paleta de cores em classes */
+
+.green-company{
+  color: #5CBD6F;
+}
+
+.blue-company{
+  color: #2F80ED;
+}
+
+.black-company{
+  color: #000000;
+}
+
+.gray-company{
+  color: #C4C4C4;
+}
+
+.white-company{
+  color: #FFFFFF;
+}
+
+
+/* Fontes em classes */ 
+
+.font-share{
+  font-family: Share;
+}
+
+.font-exo{
+  font-family: 'Exo', sans-serif;
+}
+
+/* Header */
+
+.text-contact{
+  font-family: Exo;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 32px;
+  color: #FFFFFF;
+}
+
+header{
+  height: 79px;
+}
+
+li a{
+  color: #5CBD6F;
+}
+
+/* Banner Principal */
+
+.banner-bem-me-vi{
+  width: 100%;
+  height: 420px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner-bem-me-vi img{
+  max-width: 100%;
+}
+
+/* Page Header */
+
+.banner-page-header{
+  max-width: 100%;
+}
+
+h1{
+  z-index: 100;
+  font-size: 48px;
+  line-height: 64px;
+}
+
+.page-header{
+  margin-top: 150px;
+}
+
+.gradient-page-header{
+  z-index: 0;
+  height: 273px;
+  background: linear-gradient(180deg, #FFFFFF 69.79%, rgba(242, 242, 242, 0.79) 100%), #C4C4C4;
+}
+
+/* Quem Somos */
+
+.section-quem-somos{
+  margin-bottom: 150px;
+}
+
+.gradient-quem-somos{
+  width: 100%;
+  height: 300px;
+  z-index: 0;
+  background: linear-gradient(0deg, #FFFFFF 48.44%, rgba(242, 242, 242, 0.79) 100%), #8945FA;
+  padding-top: 100px;
+  padding-left: 90px;
+}
+
+.foto-quem-somos{
+  border-radius: 100%;
+  height: 460px;
+}
+
+.p-quem-somos{
+  align-self: center;
+  padding-right: 10 0px;
+}
+
+/* Nossos Objetivos */
+
+.gradient-nossos-objetivos{
+  width: 100%;
+  height: 300px;
+  z-index: 0;
+  background: linear-gradient(0deg, #FFFFFF 48.44%, rgba(242, 242, 242, 0.79) 100%), #8945FA;
+  padding-top: 100px;
+  padding-left: 90px;
+}
+
+.p-nossos-objetivos{
+  font-size: 24px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-bottom: 100px;
+}
+
+.subtitle-anchor{
+  font-size: 56px;
+}
+
+.margin-left-120{
+  margin-left: 120px;
+}
+
+.margin-top-150{
+  margin-top: 150px;
+}
+
+.subtitle-inside{
+  font-size: 48px;
+}
+
+.case-name{
+  font-size: 64px;
+}
+
+.case-p{
+  font-size: 36px;
+}
+
+footer{
+  height: 205px;
+  background:#2F80ED;
+}
+
+.btn-circle {
+  width: 180px;
+  height: 180px;
+  padding: 6px 0px;
+  border-radius: 100px;
+  text-align: center;
+  line-height: 1.42857;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 60px;
+  text-align: center;
+  text-decoration: none;
+  margin: 6px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+  opacity:  0.7;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #DC143C;
+  color: white;
+}
+
+.fa-whatsapp{
+  background: green;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.carousel-inner> .item> img { 
+  margin: auto; 
+  }
+
+.d-flex{
+  display: flex;
+}
+  
+.flex-row {
+  justify-content: space-between;
+  padding: 50px;
+  flex-wrap: wrap;
+}
+  
