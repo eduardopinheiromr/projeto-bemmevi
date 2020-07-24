@@ -10,9 +10,7 @@ $white-company: #FFFFFF;
 
 */
 
-.font-share{
-  font-family: Share;
-}
+/* Paleta de cores em classes */
 
 .green-company{
   color: #5CBD6F;
@@ -34,6 +32,19 @@ $white-company: #FFFFFF;
   color: #FFFFFF;
 }
 
+
+/* Fontes em classes */ 
+
+.font-share{
+  font-family: Share;
+}
+
+.font-exo{
+  font-family: 'Exo', sans-serif;
+}
+
+/* Header */
+
 .text-contact{
   font-family: Exo;
   font-style: normal;
@@ -43,10 +54,6 @@ $white-company: #FFFFFF;
   color: #FFFFFF;
 }
 
-
-
-
-
 header{
   height: 79px;
 }
@@ -55,17 +62,91 @@ li a{
   color: #5CBD6F;
 }
 
+/* Banner Principal */
+
+.banner-bem-me-vi{
+  width: 100%;
+  height: 420px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner-bem-me-vi img{
+  max-width: 100%;
+}
+
+/* Page Header */
+
 .banner-page-header{
   max-width: 100%;
 }
 
 h1{
+  z-index: 100;
   font-size: 48px;
   line-height: 64px;
 }
 
+.page-header{
+  margin-top: 150px;
+}
+
+.gradient-page-header{
+  z-index: 0;
+  height: 273px;
+  background: linear-gradient(180deg, #FFFFFF 69.79%, rgba(242, 242, 242, 0.79) 100%), #C4C4C4;
+}
+
+/* Quem Somos */
+
+.section-quem-somos{
+  margin-bottom: 150px;
+}
+
+.gradient-quem-somos{
+  width: 100%;
+  height: 300px;
+  z-index: 0;
+  background: linear-gradient(0deg, #FFFFFF 48.44%, rgba(242, 242, 242, 0.79) 100%), #8945FA;
+  padding-top: 100px;
+  padding-left: 90px;
+}
+
+.foto-quem-somos{
+  border-radius: 100%;
+  height: 460px;
+}
+
+.p-quem-somos{
+  align-self: center;
+  padding-right: 10 0px;
+}
+
+/* Nossos Objetivos */
+
+.gradient-nossos-objetivos{
+  width: 100%;
+  height: 300px;
+  z-index: 0;
+  background: linear-gradient(0deg, #FFFFFF 48.44%, rgba(242, 242, 242, 0.79) 100%), #8945FA;
+  padding-top: 100px;
+  padding-left: 90px;
+}
+
+.p-nossos-objetivos{
+  font-size: 24px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-bottom: 100px;
+}
+
 .subtitle-anchor{
   font-size: 56px;
+}
+
+.margin-left-120{
+  margin-left: 120px;
 }
 
 .margin-top-150{
