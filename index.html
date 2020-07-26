@@ -30,39 +30,43 @@
 </head>
 
 <body>
+	<header>
+		<nav class="navbar navbar-expand-lg navbar-light">
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+				aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
 
-	<header class="container-fluid d-flex align-items-center justify-content-around font-share">
-		<div class="row">
-			<div class="col-md-12">
-				<ul class="nav nav-pills">
-					<li class="nav-item">
-						<a class="nav-link" href="#">HOME</a>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mr-auto nav-bemmevi font-share">
+					<li class="nav-item active">
+						<a class="nav-link" href="#" style="color: #5CBD6F">HOME <span class="sr-only">(current)</span></a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#">QUEM SOMOS</a>
+						<a class="nav-link" href="#" style="color: #5CBD6F">QUEM SOMOS</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#">PROJETOS</a>
+						<a class="nav-link" href="#" style="color: #5CBD6F">PROJETOS</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#">OBJETIVOS</a>
+						<a class="nav-link" href="#" style="color: #5CBD6F">OBJETIVOS</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#">LINKS</a>
+						<a class="nav-link" href="#" style="color: #5CBD6F">LINKS</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#">INSCRIÇÃO</a>
+						<a class="nav-link" href="#" style="color: #5CBD6F">INSCRIÇÃO</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#">CONTATO</a>
+						<a class="nav-link" href="#" style="color: #5CBD6F">CONTATO</a>
 					</li>
 				</ul>
 			</div>
-		</div>
+		</nav>
 	</header>
 
 	<!-- INÍCIO CARROSSEL -->
-	<section>
+	<section class="inicio">
 		<div class="banner-bem-me-vi">
 			<img class="" alt="Banner Bem Me Vi" src="./src/assets/images/Logofull.webp">
 		</div>
@@ -70,7 +74,7 @@
 	<!-- FIM CARROSEL -->
 
 	<!-- INICIO PAGE HEADER E BANNER -->
-	<section class="py-3">
+	<section>
 		<div class="container-fluid">
 			<div class="row d-flex flex-column">
 				<div class="page-header gradient-page-header">
@@ -95,6 +99,8 @@
 					</h3>
 				</div>
 			</div>
+		</div>
+		<div class="container">
 			<div class="row d-flex align-items-center">
 				<div class="col-md-6 d-flex justify-content-center">
 					<img class="foto-quem-somos" alt="Voluntários Bem Me Vi" src="./src/assets/images/foto_somos.webp">
@@ -121,7 +127,7 @@
 	<!-- FIM QUEM SOMOS -->
 
 	<!-- INICIO NOSSOS OBJETIVOS -->
-	<section class="py-3">
+	<section>
 		<div class="container-fluid">
 			<div class="row">
 				<div class="gradient-nossos-objetivos">
@@ -130,69 +136,70 @@
 					</h3>
 				</div>
 			</div>
-			<div class="col-md-12">
-				<p class="font-exo p-nossos-objetivos text-center">
-					O objetivo do Projeto Bem Me Vi é suscitar nos jovens suas potencialidades e autonomia através de oficinas
-					de formação, que trabalharão o engajamento e o protagonismo juvenil, intencionando o desenvolvimento de
-					uma
-					nova geração mais responsável, consciente e altruísta.
-				</p>
-			</div>
-			<h3 class="margin-left-120 subtitle-inside green-company">
-				Algumas das nossas transformações
-			</h3>
-			<div class="row d-flex">
-				<div class="col-md-6 d-flex justify-content-around margin-top-150">
-					<img alt="Bootstrap Image Preview"
-						src="./src/assets/images/89702635_853449781750117_2249754128590068958_n 2.webp">
-				</div>
-				<div class="col-md-6 d-flex flex-column justify-content-center">
-					<h3 class="case-name green-company">
-						JULIA
-					</h3>
-					<p class="case-p blue-company">
-						“É uma forma descontraída de aprender mais sobre nós mesmos, aprendendo novas alternativas para
-						resolvermos nossas crises pessoais”
-					</p>
-				</div>
-			</div>
-			<div class="row d-flex align-items-center margin-top-150">
-				<div class="col-md-6 d-flex flex-column justify-content-center">
-					<h3 class="case-name green-company">
-						FERNANDA
-					</h3>
-					<p class="case-p blue-company">
-						“Simplesmente me plantou uma semente de luz, me mostrou como ser uma pessoa melhor. Provavelmente muitos
-						aqui pensaram em desistir, mas uma boa ação começa a mudar essa ideia”
-					</p>
-				</div>
-				<div class="col-md-6">
-					<img alt="Bootstrap Image Preview" src="./src/assets/images/foto_maira.webp">
-				</div>
-			</div>
-			<div class="row d-flex justify-content-around margin-top-150">
-				<div class="col-md-6">
-					<img alt="Bootstrap Image Preview" src="./src/assets/images/foto_vinicius.webp">
-				</div>
-				<div class="col-md-6 d-flex flex-column justify-content-center">
-					<h3 class="case-name green-company">
-						VINÍCIUS
-					</h3>
-					<p class="case-p blue-company">
-						“Participei de atividades que me ajudaram a pensar no futuro, pensar em outras pessoas, no que sou hoje
-						e repensar minhas escolhas daqui pra frente!”
-					</p>
-				</div>
-			</div>
 		</div>
-		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<p class="font-exo p-nossos-objetivos text-center">
+						O objetivo do Projeto Bem Me Vi é suscitar nos jovens suas potencialidades e autonomia através de oficinas
+						de formação, que trabalharão o engajamento e o protagonismo juvenil, intencionando o desenvolvimento de
+						uma
+						nova geração mais responsável, consciente e altruísta.
+					</p>
+				</div>
+				<h3 class="margin-left-120 subtitle-inside green-company font-share h3-bold">
+					ALGUMAS DAS NOSSAS TRANSFORMAÇÕES
+				</h3>
+				<div class="row d-flex div-avatar">
+					<div class="col-md-6 d-flex justify-content-around margin-top-150">
+						<img class="avatar-transformacao" alt="Foto da Julia" src="./src/assets/images/foto_julia.webp">
+					</div>
+					<div class="col-md-6 d-flex flex-column justify-content-center">
+						<h3 class="case-name green-company font-share h3-bold">
+							JULIA
+						</h3>
+						<p class="case-p blue-company">
+							“É uma forma descontraída de aprender mais sobre nós mesmos, aprendendo novas alternativas para
+							resolvermos nossas crises pessoais”
+						</p>
+					</div>
+				</div>
+				<div class="row d-flex div-avatar margin-top-150">
+					<div class="col-md-6 d-flex flex-column justify-content-center">
+						<h3 class="case-name green-company font-share h3-bold">
+							FERNANDA
+						</h3>
+						<p class="case-p blue-company">
+							“Simplesmente me plantou uma semente de luz, me mostrou como ser uma pessoa melhor. Provavelmente muitos
+							aqui pensaram em desistir, mas uma boa ação começa a mudar essa ideia”
+						</p>
+					</div>
+					<div class="col-md-6">
+						<img class="avatar-transformacao" alt="Foto da Fernanda" src="./src/assets/images/foto_maira.webp">
+					</div>
+				</div>
+				<div class="row d-flex div-avatar margin-top-150">
+					<div class="col-md-6">
+						<img class="avatar-transformacao" alt="Foto do Vinícius" src="./src/assets/images/foto_vinicius.webp">
+					</div>
+					<div class="col-md-6 d-flex flex-column justify-content-center">
+						<h3 class="case-name green-company font-share h3-bold">
+							VINÍCIUS
+						</h3>
+						<p class="case-p blue-company">
+							“Participei de atividades que me ajudaram a pensar no futuro, pensar em outras pessoas, no que sou hoje
+							e repensar minhas escolhas daqui pra frente!”
+						</p>
+					</div>
+				</div>
+			</div>
 		</div>
 	</section>
 	<!-- FIM NOSSOS OBJETIVOS -->
 
 
 	<!-- INICIO PRINCIPAIS PROJETOS -->
-	<section class="py-3">
+	<section class="section-principais-projetos">
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-md-12">
@@ -243,26 +250,30 @@
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-md-12">
-					<h3 class="subtitle-inside green-company">
+					<h3 class="subtitle-inside green-company text-center">
 						PÚBLICO BENEFICIADO
 					</h3>
 				</div>
 			</div>
-			<div class="row px-md-3">
-				<div class="col-md-12 d-flex flex-row">
+			<div class="row d-flex justify-content-center">
+				<div class="col-md-4 d-flex justify-content-center">
 					<div class="card" style="width: 18rem;">
 						<img src="./src/assets/images/person 2.webp" class="card-img-top" alt="...">
 						<div class="card-body">
 							<p class="card-text">Adolescentes de 12 a 17 anos</p>
 						</div>
 					</div>
+				</div>
+				<div class="col-md-4 d-flex justify-content-center">
 					<div class="card" style="width: 18rem;">
 						<img src="./src/assets/images/person 2.webp" class="card-img-top" alt="...">
 						<div class="card-body">
 							<p class="card-text">Jovens a partir de 18 anos</p>
 						</div>
 					</div>
-					<div class="card" style="width: 18rem;">
+				</div>
+				<div class="col-md-4 d-flex justify-content-center">
+					<div class=" card" style="width: 18rem;">
 						<img src="./src/assets/images/handshake.webp" class="card-img-top" alt="...">
 						<div class="card-body">
 							<p class="card-text">Participantes de instituições parceiras.</p>
@@ -271,18 +282,19 @@
 				</div>
 			</div>
 		</div>
+		</div>
 	</section>
 	<!-- FIM PÚBLICO BENEFICIADO -->
 
 	<!-- INICIO QUANTIDADE DE ATENDIDOS -->
-	<section class="py-3">
+	<section>
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-md-12">
 					<h3 class="subtitle-inside green-company">
 						QUANTIDADE DE ATENDIDOS ATÉ O MOMENTO
-					</h3><img alt="Bootstrap Image Preview" class="px-md-3" src="./src/assets/images/TOTAL-BENEFICIADOS.webp"
-						height="400px">
+					</h3><img alt="Bootstrap Image Preview" class="total-beneficiados"
+						src="./src/assets/images/TOTAL-BENEFICIADOS.webp">
 				</div>
 			</div>
 		</div>
@@ -295,20 +307,25 @@
 			<div class="row">
 				<div class="col-md-12 d-flex flex-column">
 					<h3 class="subtitle-anchor blue-company">
-						TRANSPARÊNCIA
+						LINKS
 					</h3>
 					<p>
 						O Projeto Bem me Vi tem como objetivo nossa transparência e deixar bem clara nossa prestação de contas e
 						nossos comprimentos da legislação.
 					</p>
-					<div class="col-md-12 flex-column">
-						<button type="button" class="btn btn-success btn-lg btn-circle">
-							DEMONSTRATIVO<br> FINANCEIRO
-						</button>
-						<button type="button" class="btn btn-primary btn-lg btn-circle">
-							BALANÇO<br>ANUAL
-						</button>
-					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12 d-flex flex-row justify-content-center">
+					<button type="button" class="btn btn-primary btn-lg font-share h3-bold btn-transparencia">
+						<span class="d-flex justify-content-center align-items-center">DEMONSTRATIVO FINANCEIRO</span>
+					</button>
+					<button type="button" class="btn btn-success btn-lg font-share h3-bold btn-transparencia">
+						<span class="d-flex justify-content-center align-items-center">BALANÇO<br> ANUAL</span>
+					</button>
+					<button type="button" class="btn btn-primary btn-lg font-share h3-bold btn-transparencia">
+						<span class="d-flex justify-content-center align-items-center">+INFORMAÇÕES</span>
+					</button>
 				</div>
 			</div>
 		</div>
@@ -328,10 +345,10 @@
 						Gostaria de fazer parte dessa família?
 					</p>
 					<div class="col-md-12 flex-column">
-						<button type="button" class="btn btn-success btn-lg">
+						<button type="button" class="btn btn-success btn-lg font-share">
 							Quero ser <br><strong>VOLUNTÁRIO</strong>
 						</button>
-						<button type="button" class="btn btn-success btn-lg">
+						<button type="button" class="btn btn-success btn-lg font-share">
 							Quero ser <br><strong>BENEFICIADO</strong>
 						</button>
 					</div>
