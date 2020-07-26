@@ -43,6 +43,26 @@ $white-company: #FFFFFF;
   font-family: 'Exo', sans-serif;
 }
 
+p{
+  font-family: 'Exo';
+}
+
+.btn-transparencia{
+  height: 190px;
+  min-width: 190px;
+  max-width: 190px;
+  border-radius: 26px;
+}
+
+.btn-transparencia span{
+  line-height: 25px;
+}
+
+.btn-success{
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
 /* Header */
 
 .text-contact{
@@ -55,14 +75,39 @@ $white-company: #FFFFFF;
 }
 
 header{
-  height: 79px;
+  z-index: 999999;
+  opacity: 0.9;
+  height: 50px;
+  position: fixed;
+  width: 100%;
+  background: white;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  font-size: 14pt;
+  background: linear-gradient(180deg, #FFFFFF 38.02%, rgba(242, 242, 242, 0.93) 100%), #C4C4C4;
+}
+
+.nav-bemmevi{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  filter: none;
 }
 
 li a{
   color: #5CBD6F;
 }
 
+/* .nav{
+  display: flex;
+  flex-wrap: wrap;
+} */
+
 /* Banner Principal */
+
+.inicio{
+  padding-top: 50px;
+}
 
 .banner-bem-me-vi{
   width: 100%;
@@ -120,7 +165,6 @@ h1{
 
 .p-quem-somos{
   align-self: center;
-  padding-right: 10 0px;
 }
 
 /* Nossos Objetivos */
@@ -142,7 +186,30 @@ h1{
 }
 
 .subtitle-anchor{
+  max-width: 100%;
   font-size: 56px;
+}
+
+.h3-bold{
+  line-height: 54px;
+  font-weight: bold;
+  letter-spacing: 0.025em;
+}
+
+.avatar-transformacao{
+  width: 100%;
+}
+
+/* Principais Projetos */
+
+.section-principais-projetos{
+  margin-top: 150px;
+}
+
+/* Total Atendidos */
+
+.total-beneficiados{
+  max-width: 100%;
 }
 
 .margin-left-120{
@@ -219,4 +286,19 @@ footer{
 
 .carousel-inner> .item> img { 
   margin: auto; 
+  }
+
+
+  @media (max-width: 360px){
+    .foto-quem-somos{
+      width: 300px;
+      height: auto;
+    }
+  }
+
+  @media (max-width: 360px){
+    .foto-quem-somos{
+      width: 300px;
+      height: auto;
+    }
   }
