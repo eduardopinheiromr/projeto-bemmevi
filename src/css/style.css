@@ -12,6 +12,11 @@ $white-company: #FFFFFF;
 
 /* Paleta de cores em classes */
 
+html {
+  scroll-behavior: smooth;
+}
+
+
 .green-company{
   color: #5CBD6F!important;
 }
@@ -79,10 +84,6 @@ p{
 .btn-success{
   margin-left: 40px;
   margin-right: 40px;
-}
-
-.btn-voluntario{
-  /* width: 100%; */
 }
 
 /* Header */
@@ -298,7 +299,7 @@ h1{
 }
 
 footer{
-  height: 295px;
+  min-height: 295px;
   background:#2F80ED;
 }
 
