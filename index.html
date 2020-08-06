@@ -30,14 +30,14 @@
 </head>
 
 <body>
-	<header>
+	<header class=" d-flex align-items-center justify-content-center">
 		<nav class="navbar navbar-expand-lg navbar-light">
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
 				aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			</button>
 
-			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<div class="collapse navbar-collapse " id="navbarSupportedContent">
 				<ul class="navbar-nav mr-auto nav-bemmevi font-share">
 					<li class="nav-item active">
 						<a class="nav-link" href="#" style="color: #5CBD6F">HOME <span class="sr-only">(current)</span></a>
@@ -78,7 +78,7 @@
 		<div class="container-fluid">
 			<div class="row d-flex flex-column">
 				<div class="page-header gradient-page-header">
-					<h1 class="blue-company text-center">
+					<h1 class="blue-company text-center uppercase">
 						Vamos juntos criar uma<br> nova geração capaz de serem<br> protagonistas de suas realidades</small>
 					</h1>
 				</div>
@@ -147,11 +147,11 @@
 						nova geração mais responsável, consciente e altruísta.
 					</p>
 				</div>
-				<h3 class="margin-left-120 subtitle-inside green-company font-share h3-bold">
+				<h3 class="subtitle-inside green-company font-share h3-bold">
 					ALGUMAS DAS NOSSAS TRANSFORMAÇÕES
 				</h3>
-				<div class="row d-flex div-avatar">
-					<div class="col-md-6 d-flex justify-content-around margin-top-150">
+				<div class="row d-flex div-avatar margin-top-150">
+					<div class="col-md-6 d-flex align-items-start justify-content-between">
 						<img class="avatar-transformacao" alt="Foto da Julia" src="./src/assets/images/foto_julia.webp">
 					</div>
 					<div class="col-md-6 d-flex flex-column justify-content-center">
@@ -164,7 +164,7 @@
 						</p>
 					</div>
 				</div>
-				<div class="row d-flex div-avatar margin-top-150">
+				<div class="row d-flex reverse-avatar margin-top-150">
 					<div class="col-md-6 d-flex flex-column justify-content-center">
 						<h3 class="case-name green-company font-share h3-bold">
 							FERNANDA
@@ -203,7 +203,7 @@
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-md-12">
-					<h3 class="subtitle-anchor blue-company">
+					<h3 class="subtitle-anchor blue-company font-share pl-90">
 						PRINCIPAIS PROJETOS
 					</h3>
 					<div class="carousel slide px-md-3" id="carousel-890737">
@@ -211,8 +211,6 @@
 							<li data-slide-to="0" data-target="#carousel-890737" class="active">
 							</li>
 							<li data-slide-to="1" data-target="#carousel-890737">
-							</li>
-							<li data-slide-to="2" data-target="#carousel-890737">
 							</li>
 						</ol>
 						<div class="carousel-inner center-block">
@@ -235,9 +233,9 @@
 								</div>
 							</div>
 						</div> <a class="carousel-control-prev" href="#carousel-890737" data-slide="prev"><span
-								class="carousel-control-prev-icon"></span> <span class="sr-only">Previous</span></a> <a
+								class="carousel-control-prev-icon"></span> <span class="sr-only">Anterior</span></a> <a
 							class="carousel-control-next" href="#carousel-890737" data-slide="next"><span
-								class="carousel-control-next-icon"></span> <span class="sr-only">Next</span></a>
+								class="carousel-control-next-icon"></span> <span class="sr-only">Próximo</span></a>
 					</div>
 				</div>
 			</div>
@@ -246,37 +244,38 @@
 	<!-- FIM PRINCIPAIS PROJETOS -->
 
 	<!-- INICIO PÚBLICO BENEFICIADO -->
-	<section class="py-3">
+	<section class="py-3 mt-5">
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-md-12">
-					<h3 class="subtitle-inside green-company text-center">
+					<h3 class="subtitle-inside green-company font-share h3-bold mb-5 ml-3">
 						PÚBLICO BENEFICIADO
 					</h3>
 				</div>
 			</div>
-			<div class="row d-flex justify-content-center">
-				<div class="col-md-4 d-flex justify-content-center">
-					<div class="card" style="width: 18rem;">
+			<div class="row d-flex justify-content-center align-items-center">
+				<div class="col-md-4">
+					<div class="card d-flex justify-content-center align-items-center">
 						<img src="./src/assets/images/person 2.webp" class="card-img-top" alt="...">
 						<div class="card-body">
-							<p class="card-text">Adolescentes de 12 a 17 anos</p>
+							<p class="text-center text-card font-exo">Adolescentes de <br><strong>12 a 17 anos</strong></p>
 						</div>
 					</div>
 				</div>
-				<div class="col-md-4 d-flex justify-content-center">
-					<div class="card" style="width: 18rem;">
+				<div class="col-md-4 ">
+					<div class="card d-flex justify-content-center align-items-center">
 						<img src="./src/assets/images/person 2.webp" class="card-img-top" alt="...">
 						<div class="card-body">
-							<p class="card-text">Jovens a partir de 18 anos</p>
+							<p class="text-center text-card font-exo">Jovens a partir de <br><strong>18 anos</strong></p>
 						</div>
 					</div>
 				</div>
-				<div class="col-md-4 d-flex justify-content-center">
-					<div class=" card" style="width: 18rem;">
+				<div class="col-md-4">
+					<div class="card d-flex justify-content-center align-items-center">
 						<img src="./src/assets/images/handshake.webp" class="card-img-top" alt="...">
 						<div class="card-body">
-							<p class="card-text">Participantes de instituições parceiras.</p>
+							<p class="text-center text-card font-exo">Participantes de <br><strong>instituições parceiras.</strong>
+							</p>
 						</div>
 					</div>
 				</div>
@@ -288,13 +287,16 @@
 
 	<!-- INICIO QUANTIDADE DE ATENDIDOS -->
 	<section>
-		<div class="container-fluid">
+		<div class="container-fluid mt-5">
 			<div class="row">
 				<div class="col-md-12">
-					<h3 class="subtitle-inside green-company">
+					<h3 class="subtitle-inside green-company font-share h3-bold mb-5 ml-3">
 						QUANTIDADE DE ATENDIDOS ATÉ O MOMENTO
-					</h3><img alt="Bootstrap Image Preview" class="total-beneficiados"
-						src="./src/assets/images/TOTAL-BENEFICIADOS.webp">
+					</h3>
+					<picture class="d-flex align-items-center justify-content-center">
+						<img alt="Bootstrap Image Preview" class="total-beneficiados"
+							src="./src/assets/images/TOTAL-BENEFICIADOS.webp">
+					</picture>
 				</div>
 			</div>
 		</div>
@@ -306,24 +308,24 @@
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-md-12 d-flex flex-column">
-					<h3 class="subtitle-anchor blue-company">
+					<h3 class="subtitle-anchor blue-company font-share">
 						LINKS
 					</h3>
-					<p>
+					<p class="text-contact black-company w-75 pr-5 pl-5 mb-5 pt-3">
 						O Projeto Bem me Vi tem como objetivo nossa transparência e deixar bem clara nossa prestação de contas e
 						nossos comprimentos da legislação.
 					</p>
 				</div>
 			</div>
-			<div class="row">
+			<div class="row mt-3">
 				<div class="col-md-12 d-flex flex-row justify-content-center">
-					<button type="button" class="btn btn-primary btn-lg font-share h3-bold btn-transparencia">
+					<button type="button" class="btn btn-primary btn-lg font-share h3-bold btn-transparencia btn-size">
 						<span class="d-flex justify-content-center align-items-center">DEMONSTRATIVO FINANCEIRO</span>
 					</button>
-					<button type="button" class="btn btn-success btn-lg font-share h3-bold btn-transparencia">
+					<button type="button" class="btn btn-success btn-lg font-share h3-bold btn-transparencia btn-size">
 						<span class="d-flex justify-content-center align-items-center">BALANÇO<br> ANUAL</span>
 					</button>
-					<button type="button" class="btn btn-primary btn-lg font-share h3-bold btn-transparencia">
+					<button type="button" class="btn btn-primary btn-lg font-share h3-bold btn-transparencia btn-size">
 						<span class="d-flex justify-content-center align-items-center">+INFORMAÇÕES</span>
 					</button>
 				</div>
@@ -334,21 +336,21 @@
 
 
 	<!-- INICIO INSCRIÇÃO -->
-	<section class="py-3">
+	<section class="py-3 margin-top-150">
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-md-12 d-flex flex-column">
-					<h3 class="subtitle-anchor blue-company">
+					<h3 class="subtitle-anchor blue-company font-share">
 						INSCRIÇÃO
 					</h3>
-					<p>
+					<p class="text-contact black-company w-75 pr-5 pl-5 mb-5 pt-3">
 						Gostaria de fazer parte dessa família?
 					</p>
-					<div class="col-md-12 flex-column">
-						<button type="button" class="btn btn-success btn-lg font-share">
+					<div class="col-md-12 d-flex flex-column justify-content-center align-items-center mx-auto pb-5 mb-5 w-50">
+						<button type="button" class="btn btn-success btn-lg font-share btn-subscribe mb-5 subtitle-inside">
 							Quero ser <br><strong>VOLUNTÁRIO</strong>
 						</button>
-						<button type="button" class="btn btn-success btn-lg font-share">
+						<button type="button" class="btn btn-primary btn-lg font-share btn-subscribe subtitle-inside">
 							Quero ser <br><strong>BENEFICIADO</strong>
 						</button>
 					</div>
@@ -361,12 +363,12 @@
 	<footer class="white-company">
 		<div class="container-fluid">
 			<div class="row">
-				<div class="col-md-12">
-					<h3 class="white-company">
+				<div class="col-md-12 pl-5">
+					<h3 class="white-company pt-5 font-share subtitle-inside">
 						ENTRE EM CONTATO
 					</h3>
 					<div class="d-flex">
-						<p class="text-contact">
+						<p class="text-contact w-75 font-weight-light">
 							Para saber mais do nosso projeto e como você pode ajudar,
 							pode entrar com contato através do Facebook, Instagram ou ligar pra gente!
 						</p>

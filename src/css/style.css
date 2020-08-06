@@ -13,23 +13,23 @@ $white-company: #FFFFFF;
 /* Paleta de cores em classes */
 
 .green-company{
-  color: #5CBD6F;
+  color: #5CBD6F!important;
 }
 
 .blue-company{
-  color: #2F80ED;
+  color: #2F80ED!important;
 }
 
 .black-company{
-  color: #000000;
+  color: #000000!important;
 }
 
 .gray-company{
-  color: #C4C4C4;
+  color: #C4C4C4!important;
 }
 
 .white-company{
-  color: #FFFFFF;
+  color: #FFFFFF!important;
 }
 
 
@@ -43,8 +43,30 @@ $white-company: #FFFFFF;
   font-family: 'Exo', sans-serif;
 }
 
+.font-36px{
+  font-size: 36px!important;
+}
+
+.uppercase{
+  text-transform: uppercase;
+}
+
 p{
   font-family: 'Exo';
+}
+
+.btn-size{
+  height: 296px!important;
+  min-width: 296px!important;
+  font-size: 36px;
+  line-height: 41px!important;
+}
+
+.btn-subscribe{
+  height: 146px!important;
+  width: 100%;
+  border-radius: 30px;
+  line-height: 54px;
 }
 
 .btn-transparencia{
@@ -54,13 +76,13 @@ p{
   border-radius: 26px;
 }
 
-.btn-transparencia span{
-  line-height: 25px;
-}
-
 .btn-success{
   margin-left: 40px;
   margin-right: 40px;
+}
+
+.btn-voluntario{
+  /* width: 100%; */
 }
 
 /* Header */
@@ -77,13 +99,20 @@ p{
 header{
   z-index: 999999;
   opacity: 0.9;
-  height: 50px;
+  height: 60px;
   position: fixed;
   width: 100%;
   background: white;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   font-size: 14pt;
   background: linear-gradient(180deg, #FFFFFF 38.02%, rgba(242, 242, 242, 0.93) 100%), #C4C4C4;
+}
+
+.nav-link{
+  line-height: 13px;
+  padding-left: 38px!important;
+  padding-right: 38px!important;
+  border-right: 1px solid black;
 }
 
 .nav-bemmevi{
@@ -115,6 +144,7 @@ li a{
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: 70px;
 }
 
 .banner-bem-me-vi img{
@@ -187,7 +217,7 @@ h1{
 
 .subtitle-anchor{
   max-width: 100%;
-  font-size: 56px;
+  font-size: 96px;
 }
 
 .h3-bold{
@@ -196,20 +226,53 @@ h1{
   letter-spacing: 0.025em;
 }
 
+.div-avatar{
+  background-image: url('../assets/images/Vector.webp');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.reverse-avatar{
+  background-image: url('../assets/images/Vector-flipped.webp');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
 .avatar-transformacao{
-  width: 100%;
+  max-height: 496px;
 }
 
 /* Principais Projetos */
+
+.pl-90{
+  padding-left: 90px;
+}
 
 .section-principais-projetos{
   margin-top: 150px;
 }
 
+.carousel-inner{
+  height: 100vh!important;
+}
+
 /* Total Atendidos */
 
+.text-card{
+  font-size: 24px;
+}
+
+.card{
+  border: none!important;
+}
+
+.card-img-top{
+  height: 164px!important;
+  width: 165px!important;
+}
+
 .total-beneficiados{
-  max-width: 100%;
+  width: 50%;
 }
 
 .margin-left-120{
@@ -225,15 +288,17 @@ h1{
 }
 
 .case-name{
+  margin-top: 50px;
   font-size: 64px;
 }
 
 .case-p{
-  font-size: 36px;
+  margin-top: 20px;
+  font-size: 29px;
 }
 
 footer{
-  height: 205px;
+  height: 295px;
   background:#2F80ED;
 }
 
