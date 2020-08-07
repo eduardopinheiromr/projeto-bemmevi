@@ -400,34 +400,7 @@
 		integrity="sha384-XEerZL0cuoUbHE4nZReLT7nx9gQrQreJekYhJD9WNWhH8nEW+0c5qq7aIo2Wl30J"
 		crossorigin="anonymous"></script>
 	<script src="./src/javascript/index.js"></script>
-	<script>
-		// scroll suave
-		$('#teste').on('click', function (e) {
-			e.preventDefault();
-			var id = $(this).attr('href'),
-				targetOffset = $(id).offset().top;
 
-			$('html, body').animate({
-				scrollTop: targetOffset - 100
-			}, 3500);
-		});
-		// $('.nav-bemmevi a[href^="#"]').on('click', function (e) {
-		// 	e.preventDefault();
-		// 	var id = $(this).attr('href'),
-		// 		targetOffset = $(id).offset().top;
-
-		// 	$('html, body').animate({
-		// 		scrollTop: targetOffset - 100
-		// 	}, 500);
-		// });
-
-
-		window.scroll({
-			top: 1000, // Captura a distancia do topo onde deseja ser rolado
-			left: 0,// Faz o mesmo do top mas em um ambito horizontal
-			behavior: 'smooth' // Aqui eh onde vem toda a magica, ele suporta duas opcoes, o `smooth` e o `normal`
-		})
-	</script>
 </body>
 
 </html>
